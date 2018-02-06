@@ -1,0 +1,36 @@
+Ideas List
+
+Sub Game:
+Players each have their own Submarine. These subs will naturally rise
+to the top of the water if left alone. When tapped, the players
+submarine will submerge some distance, and fire a torpedo. The idea
+is to sink the opponent's sub. Each player can only fire a few
+torpedoes at once.
+
+(Possible enviromental effects such as mines, seaweed, sealife ect.)
+
+Roulette Fighter:
+A little 2d VS brawler with a single button input system. A rolling
+roulette wheel on the side of the screen constantly spins, and pressing
+the button will cause your fighter to use whatever move is shown at
+the time. This also includes movement. (Each player could have their 
+own wheel?)
+
+Volcano Time Trial:
+A game of trying to get whoever the character is to a goal as fast
+as possible via detonating volcanoes with a button press, using the
+explosion to kick the player around. 
+
+One More line (but with gravity and stuff)
+Pretty much what it sounds like. A game something along the lines
+of one more line but with a bigger focus on momentum and gravity.
+There'd be a heavy emphasis on using falling to gain speed, and
+using the arc to throw the player around. Could be a race or
+possibly distance.
+
+Worms -1
+A game with a similar idea to worms. Weapon selection and the like
+would scroll automatically, tapping interupts the scrolling.
+
+
+
