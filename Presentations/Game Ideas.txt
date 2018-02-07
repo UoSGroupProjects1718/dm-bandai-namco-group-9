@@ -32,5 +32,23 @@ Worms -1
 A game with a similar idea to worms. Weapon selection and the like
 would scroll automatically, tapping interupts the scrolling.
 
+Car Drifting:
+two player simultainous racing game where the players have to drift their car
+around the track by tapping on the correct side of the screen. players have one 
+half of the screen each to control their car. the winner is the player who reaches
+the end of the track first.
+
+Wheel Maze:
+two player turn based game where each player starts in the center of the weheel and has to
+navigate their way through an maze using the tap mechanic whilst being spun around by the wheel.
+the players are timed and the winner is the player who completes the maze in the shortest time.
+
+Reverse Tetris:
+the players have to shoot pieces of puzzle onto the game map and has to use up all the space
+availble on the map. the players cannon slides from side to side with an given piece of puzzle attached 
+to it. the player when running out of space the points are  empty spaces. the winner is the player with 
+the most score.
+
+ 
 
 
