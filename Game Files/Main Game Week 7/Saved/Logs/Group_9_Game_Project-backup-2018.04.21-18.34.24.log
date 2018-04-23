@@ -1,0 +1,780 @@
+﻿Log file open, 04/21/18 13:22:32
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Group_9_Game_Project
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-446651716) SRandInit(-446651716).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.221329
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.21-12.22.37:227][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-12.22.37:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.21-12.22.37:334][  0]LogInit: Computer: THEBIGBLACKBOX
+[2018.04.21-12.22.37:334][  0]LogInit: User: Dougmund
+[2018.04.21-12.22.37:334][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.04.21-12.22.37:334][  0]LogInit: High frequency timer resolution =3.825859 MHz
+[2018.04.21-12.22.37:335][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.04.21-12.22.37:335][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-12.22.37:335][  0]LogMemory: Process Physical Memory: 280.16 MB used, 280.16 MB peak
+[2018.04.21-12.22.37:335][  0]LogMemory: Process Virtual Memory: 276.93 MB used, 276.93 MB peak
+[2018.04.21-12.22.37:335][  0]LogMemory: Physical Memory: 2731.56 MB used,  5442.55 MB free, 8174.12 MB total
+[2018.04.21-12.22.37:335][  0]LogMemory: Virtual Memory: 654.67 MB used,  5442.55 MB free, 8388608.00 MB total
+[2018.04.21-12.22.39:096][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.21-12.22.39:096][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.21-12.22.39:106][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.21-12.22.40:766][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.21-12.22.40:796][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2018.04.21-12.22.40:796][  0]LogD3D11RHI:       1001/0/3831 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.04.21-12.22.40:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.21-12.22.40:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.21-12.22.40:804][  0]LogD3D11RHI:     GPU DeviceId: 0x6610 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.21-12.22.40:804][  0]LogWindows: EnumDisplayDevices:
+[2018.04.21-12.22.40:805][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2018.04.21-12.22.40:805][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:1)
+[2018.04.21-12.22.40:806][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2018.04.21-12.22.40:806][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.04.21-12.22.40:807][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.04.21-12.22.40:807][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.21-12.22.40:807][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2018.04.21-12.22.40:807][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.21-12.22.40:807][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.21-12.22.40:807][  0]LogRHI: Texture pool is 701 MB (70% of 1001 MB)
+[2018.04.21-12.22.40:866][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.21-12.22.40:880][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.04.21-12.22.40:882][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Intermediate/Shaders/WorkingDirectory/4412/).
+[2018.04.21-12.22.40:882][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dougmund/AppData/Local/Temp/UnrealShaderWorkingDir/10EB8E78467A3B247ABD0FADAE40263D/'.
+[2018.04.21-12.22.40:883][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.21-12.22.43:917][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.21-12.22.44:357][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.21-12.22.44:796][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.21-12.22.45:235][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.21-12.22.45:673][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.21-12.22.46:110][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.21-12.22.46:550][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.21-12.22.46:990][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.21-12.22.47:414][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.21-12.22.47:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.21-12.22.48:294][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.21-12.22.48:730][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.21-12.22.49:168][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.21-12.22.49:603][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.21-12.22.50:040][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.21-12.22.50:912][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.21-12.22.50:912][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.21-12.22.51:330][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.21-12.22.52:009][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.21-12.22.52:248][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.21-12.22.52:684][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.21-12.22.53:121][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.21-12.22.53:556][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.21-12.22.53:996][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.21-12.22.53:996][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.21-12.22.58:724][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: Loaded boot cache 0.21s 93MB C:/Users/Dougmund/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dougmund/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.21-12.22.58:935][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.21-12.22.58:961][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.21-12.22.58:984][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dougmund/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.21-12.22.59:001][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.21-12.22.59:002][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.21-12.22.59:004][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-12.22.59:004][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-12.22.59:577][  0]LogAssetRegistry: FAssetRegistry took 0.0342 seconds to start up
+[2018.04.21-12.23.00:239][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-12.23.00:245][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.21-12.23.03:066][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.21-12.23.03:482][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.21-12.23.03:483][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.21-12.23.03:483][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.21-12.23.03:483][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.21-12.23.03:483][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.21-12.23.04:252][  0]LogNetVersion: Group_9_Game_Project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2920196431)
+[2018.04.21-12.23.05:402][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.306979 seconds
+[2018.04.21-12.23.05:410][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.21-12.23.05:410][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.21-12.23.05:410][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.21-12.23.06:124][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.21-12.23.21:896][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.21-12.23.22:186][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.21-12.23.27:500][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.21-12.23.30:669][  0]SourceControl: Source control is disabled
+[2018.04.21-12.23.30:669][  0]SourceControl: Source control is disabled
+[2018.04.21-12.23.31:117][  0]SourceControl: Source control is disabled
+[2018.04.21-12.23.31:559][  0]SourceControl: Source control is disabled
+[2018.04.21-12.23.36:939][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.21-12.23.39:183][  0]LogOcInput: OculusInput pre-init called
+[2018.04.21-12.23.41:243][  0]LogEngine: Initializing Engine...
+[2018.04.21-12.23.41:247][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.21-12.23.41:599][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.21-12.23.41:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.030 s
+[2018.04.21-12.23.41:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.21-12.23.42:874][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.21-12.23.42:916][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.21-12.23.42:944][  0]LogInit: FAudioDevice initialized.
+[2018.04.21-12.23.43:162][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/Dougmund/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.21-12.23.43:206][  0]LogInit: Texture streaming: Enabled
+[2018.04.21-12.23.44:366][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.21-12.23.46:555][  0]LogInit: Transaction tracking system initialized
+[2018.04.21-12.23.49:704][  0]BlueprintLog: New page: Editor Load
+[2018.04.21-12.23.58:604][  0]LocalizationService: Localization service is disabled
+[2018.04.21-12.24.05:268][  0]LogConsoleResponse: Display: 
+[2018.04.21-12.24.05:890][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.21-12.24.05:890][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.21-12.24.05:890][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.21-12.24.06:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/' took 0.05s
+[2018.04.21-12.24.15:902][  0]SourceControl: Source control is disabled
+[2018.04.21-12.24.15:902][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Levels/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.21-12.24.15:937][  0]LightingResults: New page: Lighting Build
+[2018.04.21-12.24.16:352][  0]MapCheck: New page: Map Check
+[2018.04.21-12.24.16:352][  0]LightingResults: New page: Lighting Build
+[2018.04.21-12.24.23:853][  0]LogAIModule: Creating AISystem for world Main_Level
+[2018.04.21-12.24.24:033][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.21-12.24.24:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.21-12.24.24:445][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 345.391ms to complete.
+[2018.04.21-12.24.24:446][  0]LogFileHelpers: Loading map 'Main_Level' took 8.544
+[2018.04.21-12.24.25:555][  0]LogCollectionManager: Loaded 0 collections in 0.002640 seconds
+[2018.04.21-12.24.26:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Collections/' took 0.12s
+[2018.04.21-12.24.26:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Developers/Dougmund/Collections/' took 0.02s
+[2018.04.21-12.24.26:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Collections/' took 0.01s
+[2018.04.21-12.24.26:267][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.21-12.24.26:302][  0]LogContentBrowser: Native class hierarchy populated in 0.0325 seconds. Added 2386 classes and 500 folders.
+[2018.04.21-12.24.27:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.04.21-12.24.30:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2018.04.21-12.24.30:887][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2018.04.21-12.24.31:340][  0]LogSlate: Took 0.001194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-12.24.31:354][  0]LogSlate: Took 0.000824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.21-12.24.31:410][  0]LogSlate: Took 0.022288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.21-12.24.32:220][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.21-12.24.33:288][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.04.21-12.24.33:288][  0]LogLoad: (Engine Initialization) Total time: 125.07 seconds
+[2018.04.21-12.24.33:288][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.21-12.24.33:288][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.21-12.24.33:288][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.21-12.24.33:300][  0]LoadErrors: Error: /Game/Art/Obstacles/Seaweed_Finished__Sprite : Failed import for MaterialInstanceConstant /Game/Art/Materials/Seaweed_Transparency.Seaweed_Transparency Referenced by export PaperSprite /Game/Art/Obstacles/Seaweed_Finished__Sprite.Seaweed_Finished__Sprite
+[2018.04.21-12.24.33:341][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.21-12.24.33:475][  0]LogSlate: Took 0.027371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-12.24.33:637][  2]LogAssetRegistry: Asset discovery search completed in 94.0825 seconds
+[2018.04.21-12.24.33:639][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.21-12.24.33:639][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.04.21-12.39.25:340][981]LogSlate: Took 0.001053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-12.39.25:388][981]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\British Subs\British stage 1 sub.png)
+[2018.04.21-12.39.25:411][981]LogTexture: Display: Building textures: British_stage_1_sub (AutoDXT, 512X256)
+[2018.04.21-12.39.25:540][981]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\British Subs\British stage 2 sub.png)
+[2018.04.21-12.39.25:555][981]LogTexture: Display: Building textures: British_stage_2_sub (AutoDXT, 512X256)
+[2018.04.21-12.39.25:668][981]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\British Subs\British stage 3 sub.png)
+[2018.04.21-12.39.25:676][981]LogTexture: Display: Building textures: British_stage_3_sub (AutoDXT, 512X256)
+[2018.04.21-12.39.32:257][  1]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\American Subs\American Sub stage 1.png)
+[2018.04.21-12.39.32:270][  1]LogTexture: Display: Building textures: American_Sub_stage_1 (BGRA8, 515X256)
+[2018.04.21-12.39.32:315][  1]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\American Subs\American Sub stage 2.png)
+[2018.04.21-12.39.32:323][  1]LogTexture: Display: Building textures: American_Sub_stage_2 (BGRA8, 515X256)
+[2018.04.21-12.39.32:358][  1]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Dougmund\Documents\GitHub\dm-bandai-namco-group-9\Artwork\Asset Completed Art\PNG\Subs\American Subs\American Sub stage 3.png)
+[2018.04.21-12.39.32:367][  1]LogTexture: Display: Building textures: American_Sub_stage_3 (BGRA8, 515X256)
+[2018.04.21-12.40.04:998][586]LogSlate: Took 0.000605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-12.40.14:134][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.031
+[2018.04.21-12.40.14:221][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_1_sub] ([1] browsable assets)...
+[2018.04.21-12.40.14:227][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/British_stage_1_sub.British_stage_1_sub]
+[2018.04.21-12.40.14:227][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_1_sub]
+[2018.04.21-12.40.14:428][871]LogSavePackage: Save=165.59ms
+[2018.04.21-12.40.14:428][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_1_sub_Auto1B41CD82D4CF7BEF66A81AF816FFFE539.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_1_sub_Auto1.uasset'
+[2018.04.21-12.40.14:448][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_1_sub_Auto1.uasset
+[2018.04.21-12.40.14:454][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_2_sub] ([1] browsable assets)...
+[2018.04.21-12.40.14:459][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/British_stage_2_sub.British_stage_2_sub]
+[2018.04.21-12.40.14:459][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_2_sub]
+[2018.04.21-12.40.14:495][871]LogSavePackage: Save=21.74ms
+[2018.04.21-12.40.14:495][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_2_sub_Auto10F77FAB843F5562B33C0ABAC83508BDA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_2_sub_Auto1.uasset'
+[2018.04.21-12.40.14:508][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_2_sub_Auto1.uasset
+[2018.04.21-12.40.14:513][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_3_sub] ([1] browsable assets)...
+[2018.04.21-12.40.14:518][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/British_stage_3_sub.British_stage_3_sub]
+[2018.04.21-12.40.14:518][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_3_sub]
+[2018.04.21-12.40.14:565][871]LogSavePackage: Save=22.19ms
+[2018.04.21-12.40.14:565][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_3_sub_Auto1DA651104439986142B0B4CA25E228CD6.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_3_sub_Auto1.uasset'
+[2018.04.21-12.40.14:582][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_3_sub_Auto1.uasset
+[2018.04.21-12.40.14:587][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_1] ([1] browsable assets)...
+[2018.04.21-12.40.14:592][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/American_Sub_stage_1.American_Sub_stage_1]
+[2018.04.21-12.40.14:592][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_1]
+[2018.04.21-12.40.14:639][871]LogSavePackage: Save=22.25ms
+[2018.04.21-12.40.14:639][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_1_Auto16E04B2E94E6484EE08722EA1289D73AD.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_1_Auto1.uasset'
+[2018.04.21-12.40.14:656][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_1_Auto1.uasset
+[2018.04.21-12.40.14:661][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_2] ([1] browsable assets)...
+[2018.04.21-12.40.14:666][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/American_Sub_stage_2.American_Sub_stage_2]
+[2018.04.21-12.40.14:666][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_2]
+[2018.04.21-12.40.14:703][871]LogSavePackage: Save=22.24ms
+[2018.04.21-12.40.14:703][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_2_Auto1CB6B21F64BEE2C2F9D9458B68737E8BA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_2_Auto1.uasset'
+[2018.04.21-12.40.14:716][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_2_Auto1.uasset
+[2018.04.21-12.40.14:721][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_3] ([1] browsable assets)...
+[2018.04.21-12.40.14:726][871]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Subs/American_Sub_stage_3.American_Sub_stage_3]
+[2018.04.21-12.40.14:726][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_3]
+[2018.04.21-12.40.14:773][871]LogSavePackage: Save=22.49ms
+[2018.04.21-12.40.14:773][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_3_Auto18C3201EA45AA7EC0CADF64BEE8EE432F.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_3_Auto1.uasset'
+[2018.04.21-12.40.14:790][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_3_Auto1.uasset
+[2018.04.21-12.40.14:795][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_3_sub_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.14:808][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/British_stage_3_sub_Sprite.British_stage_3_sub_Sprite]
+[2018.04.21-12.40.14:808][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_3_sub_Sprite]
+[2018.04.21-12.40.14:849][871]LogSavePackage: Save=26.86ms
+[2018.04.21-12.40.14:849][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_3_sub_Sprite_Auto1E9D3619C44B47BF5A84F5ABC3FF7CF5F.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_3_sub_Sprite_Auto1.uasset'
+[2018.04.21-12.40.14:863][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_3_sub_Sprite_Auto1.uasset
+[2018.04.21-12.40.14:868][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_1_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.14:881][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/American_Sub_stage_1_Sprite.American_Sub_stage_1_Sprite]
+[2018.04.21-12.40.14:881][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_1_Sprite]
+[2018.04.21-12.40.14:922][871]LogSavePackage: Save=27.19ms
+[2018.04.21-12.40.14:922][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_1_Sprite_Auto18109256147350A2CFD0855A2F633DCA6.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_1_Sprite_Auto1.uasset'
+[2018.04.21-12.40.14:935][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_1_Sprite_Auto1.uasset
+[2018.04.21-12.40.14:940][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_2_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.14:952][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/American_Sub_stage_2_Sprite.American_Sub_stage_2_Sprite]
+[2018.04.21-12.40.14:952][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_2_Sprite]
+[2018.04.21-12.40.14:996][871]LogSavePackage: Save=27.60ms
+[2018.04.21-12.40.14:996][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_2_Sprite_Auto18531C35344523B01BA0352A0797FEBAF.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_2_Sprite_Auto1.uasset'
+[2018.04.21-12.40.15:010][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_2_Sprite_Auto1.uasset
+[2018.04.21-12.40.15:014][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/American_Sub_stage_3_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.15:026][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/American_Sub_stage_3_Sprite.American_Sub_stage_3_Sprite]
+[2018.04.21-12.40.15:026][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/American_Sub_stage_3_Sprite]
+[2018.04.21-12.40.15:067][871]LogSavePackage: Save=26.53ms
+[2018.04.21-12.40.15:067][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_3_Sprite_Auto15644A0E14007B2ADF46664B2C0135D5B.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_3_Sprite_Auto1.uasset'
+[2018.04.21-12.40.15:081][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/American_Sub_stage_3_Sprite_Auto1.uasset
+[2018.04.21-12.40.15:086][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_1_sub_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.15:099][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/British_stage_1_sub_Sprite.British_stage_1_sub_Sprite]
+[2018.04.21-12.40.15:099][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_1_sub_Sprite]
+[2018.04.21-12.40.15:141][871]LogSavePackage: Save=27.80ms
+[2018.04.21-12.40.15:141][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_1_sub_Sprite_Auto1468DCE0C4C681C4D2705E3A09D326413.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_1_sub_Sprite_Auto1.uasset'
+[2018.04.21-12.40.15:156][871]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-12.40.15:162][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_1_sub_Sprite_Auto1.uasset
+[2018.04.21-12.40.15:167][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Subs/British_stage_2_sub_Sprite] ([1] browsable assets)...
+[2018.04.21-12.40.15:180][871]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Subs/British_stage_2_sub_Sprite.British_stage_2_sub_Sprite]
+[2018.04.21-12.40.15:180][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Subs/British_stage_2_sub_Sprite]
+[2018.04.21-12.40.15:222][871]LogSavePackage: Save=27.41ms
+[2018.04.21-12.40.15:222][871]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_2_sub_Sprite_Auto18D3D92B34DF627CE39AD7B934587D101.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_2_sub_Sprite_Auto1.uasset'
+[2018.04.21-12.40.15:237][871]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Art/Subs/British_stage_2_sub_Sprite_Auto1.uasset
+[2018.04.21-12.40.15:237][871]LogFileHelpers: Auto-saving content packages took 1.102
+[2018.04.21-13.00.08:417][867]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2018.04.21-13.00.10:577][867]LogSlate: Took 0.026808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.21-13.00.12:544][868]LogSlate: Took 0.035287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.21-13.00.37:551][554]LogRenderer: Reallocating scene render targets to support 1208x716 Format 10 NumSamples 1 (Frame:1).
+[2018.04.21-13.00.54:529][271]BlueprintLog: New page: Compile P1_Sub_ENG_Easy
+[2018.04.21-13.01.07:191][749]BlueprintLog: New page: Compile P2_Sub_ENG_Easy
+[2018.04.21-13.01.34:113][599]LogMetaData: Removing '/Game/Blueprints/P2_Sub_ENG_Medium.SKEL_P2_Sub_ENG_Medium_C' ref from Metadata '/Game/Blueprints/P2_Sub_ENG_Mediumm.PackageMetaData'
+[2018.04.21-13.01.34:113][599]LogMetaData: Removing '/Game/Blueprints/P2_Sub_ENG_Medium.P2_Sub_ENG_Medium_C' ref from Metadata '/Game/Blueprints/P2_Sub_ENG_Mediumm.PackageMetaData'
+[2018.04.21-13.01.34:555][599]LogSavePackage: Save=374.80ms
+[2018.04.21-13.01.34:555][599]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_MediumA43189464DB58ECB0B1662973117869D.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset'
+[2018.04.21-13.01.34:591][599]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset
+[2018.04.21-13.01.45:830][855]BlueprintLog: New page: Compile P1_Sub_ENG_Medium
+[2018.04.21-13.01.53:884][ 72]BlueprintLog: New page: Compile P2_Sub_ENG_Medium
+[2018.04.21-13.02.37:729][842]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.032
+[2018.04.21-13.02.37:736][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_ENG_Easy] ([1] browsable assets)...
+[2018.04.21-13.02.37:736][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_ENG_Easy]
+[2018.04.21-13.02.38:138][842]LogSavePackage: Save=384.43ms
+[2018.04.21-13.02.38:138][842]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Easy_Auto2514D2E3944B69D3068B08EA004D76B8B.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_ENG_Easy_Auto2.uasset'
+[2018.04.21-13.02.38:152][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_ENG_Easy_Auto2.uasset
+[2018.04.21-13.02.38:157][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_ENG_Easy] ([1] browsable assets)...
+[2018.04.21-13.02.38:157][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_ENG_Easy]
+[2018.04.21-13.02.38:545][842]LogSavePackage: Save=373.84ms
+[2018.04.21-13.02.38:545][842]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Easy_Auto2EA6562454D769DD9979964A946A7F5AD.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_ENG_Easy_Auto2.uasset'
+[2018.04.21-13.02.38:558][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_ENG_Easy_Auto2.uasset
+[2018.04.21-13.02.38:563][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_ENG_Medium] ([1] browsable assets)...
+[2018.04.21-13.02.38:565][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_ENG_Medium]
+[2018.04.21-13.02.39:004][842]LogSavePackage: Save=415.38ms
+[2018.04.21-13.02.39:004][842]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Medium_Auto2E01C57804C8943F5D91A1FBB89265DA5.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_ENG_Medium_Auto2.uasset'
+[2018.04.21-13.02.39:061][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_ENG_Medium_Auto2.uasset
+[2018.04.21-13.02.39:074][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_ENG_Medium] ([1] browsable assets)...
+[2018.04.21-13.02.39:074][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_ENG_Medium]
+[2018.04.21-13.02.39:462][842]LogSavePackage: Save=332.19ms
+[2018.04.21-13.02.39:462][842]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Medium_Auto2C134D7AC4A9B2777474EB4A47E175898.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_ENG_Medium_Auto2.uasset'
+[2018.04.21-13.02.39:477][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_ENG_Medium_Auto2.uasset
+[2018.04.21-13.02.39:478][842]LogFileHelpers: Auto-saving content packages took 1.746
+[2018.04.21-13.03.51:256][905]BlueprintLog: New page: Compile P1_Sub_ENG_Expert
+[2018.04.21-13.03.58:680][ 95]BlueprintLog: New page: Compile P2_Sub_ENG_Expert
+[2018.04.21-13.04.00:889][160]LogSavePackage: Save=35.64ms
+[2018.04.21-13.04.00:889][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_1_sub4BBBB75C43A20CCD2138AFB88F889CE1.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_1_sub.uasset'
+[2018.04.21-13.04.00:929][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_1_sub.uasset
+[2018.04.21-13.04.00:993][160]LogSavePackage: Save=30.94ms
+[2018.04.21-13.04.00:993][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_2_sub54377F494C5B68A7BAF30D8A9C4FB59F.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_2_sub.uasset'
+[2018.04.21-13.04.01:033][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_2_sub.uasset
+[2018.04.21-13.04.01:087][160]LogSavePackage: Save=30.81ms
+[2018.04.21-13.04.01:087][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_3_sub77AF9B564D4F95384CAA2C81C8EBD0C5.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_3_sub.uasset'
+[2018.04.21-13.04.01:128][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_3_sub.uasset
+[2018.04.21-13.04.01:182][160]LogSavePackage: Save=30.38ms
+[2018.04.21-13.04.01:182][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_161E9257F436A773F7C9AEBB02FBF07D3.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_1.uasset'
+[2018.04.21-13.04.01:223][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_1.uasset
+[2018.04.21-13.04.01:277][160]LogSavePackage: Save=30.81ms
+[2018.04.21-13.04.01:278][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_29C0577914216DF570B89BAA56C384F88.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_2.uasset'
+[2018.04.21-13.04.01:318][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_2.uasset
+[2018.04.21-13.04.01:374][160]LogSavePackage: Save=31.61ms
+[2018.04.21-13.04.01:374][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_317F2F813428CC1574B130098F6A8EBBD.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_3.uasset'
+[2018.04.21-13.04.01:414][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_3.uasset
+[2018.04.21-13.04.01:474][160]LogSavePackage: Save=27.93ms
+[2018.04.21-13.04.01:474][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_3_sub_Sprite1C8A627A423C6E2477C18FB5C6F188A1.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_3_sub_Sprite.uasset'
+[2018.04.21-13.04.01:515][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_3_sub_Sprite.uasset
+[2018.04.21-13.04.01:575][160]LogSavePackage: Save=27.99ms
+[2018.04.21-13.04.01:575][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_1_SpriteA5E1A1DC491F9F3050ACBF83E49DD069.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_1_Sprite.uasset'
+[2018.04.21-13.04.01:616][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_1_Sprite.uasset
+[2018.04.21-13.04.01:677][160]LogSavePackage: Save=28.88ms
+[2018.04.21-13.04.01:677][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_2_Sprite05D21E1C4F68F7FE7DBD9E874439B5C9.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_2_Sprite.uasset'
+[2018.04.21-13.04.01:717][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_2_Sprite.uasset
+[2018.04.21-13.04.01:777][160]LogSavePackage: Save=27.70ms
+[2018.04.21-13.04.01:777][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/American_Sub_stage_3_SpriteD86659534D788A97E3AC529664A067DE.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_3_Sprite.uasset'
+[2018.04.21-13.04.01:818][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/American_Sub_stage_3_Sprite.uasset
+[2018.04.21-13.04.01:880][160]LogSavePackage: Save=29.08ms
+[2018.04.21-13.04.01:880][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_1_sub_Sprite51DED1354BF483058BB7218CD9656DE0.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_1_sub_Sprite.uasset'
+[2018.04.21-13.04.01:926][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_1_sub_Sprite.uasset
+[2018.04.21-13.04.01:989][160]LogSavePackage: Save=29.21ms
+[2018.04.21-13.04.01:989][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/British_stage_2_sub_Sprite187E8FCD4032F731F4D036ABD9356314.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_2_sub_Sprite.uasset'
+[2018.04.21-13.04.02:028][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Art/Subs/British_stage_2_sub_Sprite.uasset
+[2018.04.21-13.04.02:450][160]LogSavePackage: Save=402.72ms
+[2018.04.21-13.04.02:450][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Easy2C4A2E1549BCFC3E2437D2AB4DBB14A8.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Easy.uasset'
+[2018.04.21-13.04.02:488][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Easy.uasset
+[2018.04.21-13.04.02:916][160]LogSavePackage: Save=408.29ms
+[2018.04.21-13.04.02:917][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Easy01DB28954D882FC1E5A615974001A716.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Easy.uasset'
+[2018.04.21-13.04.02:956][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Easy.uasset
+[2018.04.21-13.04.03:370][160]LogSavePackage: Save=394.01ms
+[2018.04.21-13.04.03:370][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Medium24FB33704DA1D6BF2422C48B021BFFCD.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset'
+[2018.04.21-13.04.03:410][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset
+[2018.04.21-13.04.03:817][160]LogSavePackage: Save=388.43ms
+[2018.04.21-13.04.03:817][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Expert3691B567453620EDAC6A4D9A4FA6DF6C.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Expert.uasset'
+[2018.04.21-13.04.03:854][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Expert.uasset
+[2018.04.21-13.04.04:209][160]LogSavePackage: Save=328.65ms
+[2018.04.21-13.04.04:209][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Medium0592D2BF4627B2EA58EEFE82EC9FD9E1.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset'
+[2018.04.21-13.04.04:249][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset
+[2018.04.21-13.04.04:664][160]LogSavePackage: Save=395.82ms
+[2018.04.21-13.04.04:664][160]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Expert6D279DF644944735F4BEEAA15F66E245.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Expert.uasset'
+[2018.04.21-13.04.04:703][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Expert.uasset
+[2018.04.21-13.09.05:870][952]LogEditorTransaction: Undo Resize Node
+[2018.04.21-13.09.22:102][525]BlueprintLog: New page: Compile P1_Sub_ENG_Easy
+[2018.04.21-13.10.14:740][306]BlueprintLog: New page: Compile P2_Sub_ENG_Easy
+[2018.04.21-13.10.18:724][421]LogSavePackage: Save=320.64ms
+[2018.04.21-13.10.18:724][421]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Easy1198562C429AF6C6AD9F71A913CBE330.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Easy.uasset'
+[2018.04.21-13.10.18:755][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Easy.uasset
+[2018.04.21-13.10.19:117][421]LogSavePackage: Save=319.81ms
+[2018.04.21-13.10.19:117][421]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Easy372B65CA4BDC2C1E590BB8A1422011C5.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Easy.uasset'
+[2018.04.21-13.10.19:148][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Easy.uasset
+[2018.04.21-13.10.19:508][421]LogSavePackage: Save=319.57ms
+[2018.04.21-13.10.19:508][421]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Medium7608369F4C0CE6721ED229804F6EEAD9.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset'
+[2018.04.21-13.10.19:542][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset
+[2018.04.21-13.11.00:756][149]BlueprintLog: New page: Compile P1_Sub_ENG_Medium
+[2018.04.21-13.11.46:711][885]BlueprintLog: New page: Compile P2_Sub_ENG_Medium
+[2018.04.21-13.12.36:456][822]BlueprintLog: New page: Compile P1_Sub_ENG_Expert
+[2018.04.21-13.13.21:418][663]BlueprintLog: New page: Compile P2_Sub_ENG_Expert
+[2018.04.21-13.13.23:843][714]LogSavePackage: Save=323.85ms
+[2018.04.21-13.13.23:843][714]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_MediumA3D38C6C4073C864021CB898E1E4CD9D.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset'
+[2018.04.21-13.13.23:899][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Medium.uasset
+[2018.04.21-13.13.24:259][714]LogSavePackage: Save=317.65ms
+[2018.04.21-13.13.24:260][714]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Expert45CFECFF4017D5D0F940D7BAAA50E646.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Expert.uasset'
+[2018.04.21-13.13.24:328][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Expert.uasset
+[2018.04.21-13.13.24:689][714]LogSavePackage: Save=316.74ms
+[2018.04.21-13.13.24:689][714]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_ENG_Medium06A07ADB485145D8EF59D1B874F437E8.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset'
+[2018.04.21-13.13.24:722][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_ENG_Medium.uasset
+[2018.04.21-13.13.25:113][714]LogSavePackage: Save=344.20ms
+[2018.04.21-13.13.25:113][714]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_ENG_Expert944E6F2440DD08AD9D924988D3124CCB.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Expert.uasset'
+[2018.04.21-13.13.25:147][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_ENG_Expert.uasset
+[2018.04.21-13.13.34:123][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.13.34:673][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.13.35:166][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.13.35:543][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.13.35:929][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.13.36:373][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.20.21:644][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.047
+[2018.04.21-13.20.21:651][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.20.21:651][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Easy]
+[2018.04.21-13.20.22:066][195]LogSavePackage: Save=390.92ms
+[2018.04.21-13.20.22:066][195]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Easy_Auto33DC8297C4BB915889E7974AB390DBDD9.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto3.uasset'
+[2018.04.21-13.20.22:085][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto3.uasset
+[2018.04.21-13.20.22:092][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.20.22:092][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Easy]
+[2018.04.21-13.20.22:489][195]LogSavePackage: Save=383.54ms
+[2018.04.21-13.20.22:489][195]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Easy_Auto3F594029A4D2C5AC45FBA0B8D765FDD50.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto3.uasset'
+[2018.04.21-13.20.22:502][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto3.uasset
+[2018.04.21-13.20.22:502][195]LogFileHelpers: Auto-saving content packages took 0.860
+[2018.04.21-13.28.03:452][ 57]BlueprintLog: New page: Compile P1_Sub_USA_Medium
+[2018.04.21-13.28.04:914][ 82]BlueprintLog: New page: Compile P2_Sub_USA_Medium
+[2018.04.21-13.30.24:879][  2]BlueprintLog: New page: Compile P1_Sub_USA_Expert
+[2018.04.21-13.30.27:927][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.046
+[2018.04.21-13.30.27:933][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.30.27:933][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Easy]
+[2018.04.21-13.30.28:332][ 53]LogSavePackage: Save=374.14ms
+[2018.04.21-13.30.28:332][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Easy_Auto437A1FEAA4D27CD0B7EC1C5A2428E6225.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto4.uasset'
+[2018.04.21-13.30.28:352][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto4.uasset
+[2018.04.21-13.30.28:357][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.30.28:357][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Easy]
+[2018.04.21-13.30.28:741][ 53]LogSavePackage: Save=369.19ms
+[2018.04.21-13.30.28:741][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Easy_Auto4976103C94F39903C6475F698EB710F30.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto4.uasset'
+[2018.04.21-13.30.28:754][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto4.uasset
+[2018.04.21-13.30.28:759][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Medium] ([1] browsable assets)...
+[2018.04.21-13.30.28:759][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Medium]
+[2018.04.21-13.30.29:149][ 53]LogSavePackage: Save=375.31ms
+[2018.04.21-13.30.29:149][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Medium_Auto4ABF1024941029659D1845E96D6A86609.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Medium_Auto4.uasset'
+[2018.04.21-13.30.29:163][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Medium_Auto4.uasset
+[2018.04.21-13.30.29:168][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Medium] ([1] browsable assets)...
+[2018.04.21-13.30.29:168][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Medium]
+[2018.04.21-13.30.29:575][ 53]LogSavePackage: Save=377.41ms
+[2018.04.21-13.30.29:575][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Medium_Auto42DCF2D0040668F5295DA70B7EC140E68.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Medium_Auto4.uasset'
+[2018.04.21-13.30.29:594][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Medium_Auto4.uasset
+[2018.04.21-13.30.29:600][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Expert] ([1] browsable assets)...
+[2018.04.21-13.30.29:600][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Expert]
+[2018.04.21-13.30.30:001][ 53]LogSavePackage: Save=386.18ms
+[2018.04.21-13.30.30:001][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Expert_Auto460D342E840816DE00C6908A6987262BE.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Expert_Auto4.uasset'
+[2018.04.21-13.30.30:016][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Expert_Auto4.uasset
+[2018.04.21-13.30.30:021][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Expert] ([1] browsable assets)...
+[2018.04.21-13.30.30:021][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Expert]
+[2018.04.21-13.30.30:430][ 53]LogSavePackage: Save=392.99ms
+[2018.04.21-13.30.30:430][ 53]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Expert_Auto449E7B5144F00AB845FB4138B74FDF378.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Expert_Auto4.uasset'
+[2018.04.21-13.30.30:444][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Expert_Auto4.uasset
+[2018.04.21-13.30.30:444][ 53]LogFileHelpers: Auto-saving content packages took 2.516
+[2018.04.21-13.30.36:630][211]BlueprintLog: New page: Compile P2_Sub_USA_Expert
+[2018.04.21-13.30.40:785][322]LogSavePackage: Save=375.38ms
+[2018.04.21-13.30.40:785][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Easy266F120F4D1FF15F1EE7158AE4DC24C5.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Easy.uasset'
+[2018.04.21-13.30.40:827][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Easy.uasset
+[2018.04.21-13.30.41:278][322]LogSavePackage: Save=431.21ms
+[2018.04.21-13.30.41:278][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Easy1C8DADE84A3B2A85A63883872C0DBADF.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Easy.uasset'
+[2018.04.21-13.30.41:314][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Easy.uasset
+[2018.04.21-13.30.41:723][322]LogSavePackage: Save=380.55ms
+[2018.04.21-13.30.41:723][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Medium737EC9344F677793072F6C9783E3FBFB.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Medium.uasset'
+[2018.04.21-13.30.41:766][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Medium.uasset
+[2018.04.21-13.30.42:197][322]LogSavePackage: Save=412.42ms
+[2018.04.21-13.30.42:197][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Medium83EA8FAD48505CEDDFE5B88FD44D46A7.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Medium.uasset'
+[2018.04.21-13.30.42:242][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Medium.uasset
+[2018.04.21-13.30.42:643][322]LogSavePackage: Save=381.75ms
+[2018.04.21-13.30.42:643][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_ExpertC39B254D4C4D4104321870AC2B96F8EB.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Expert.uasset'
+[2018.04.21-13.30.42:683][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Expert.uasset
+[2018.04.21-13.30.43:094][322]LogSavePackage: Save=391.80ms
+[2018.04.21-13.30.43:094][322]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Expert899B91524A692459318648A657166680.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Expert.uasset'
+[2018.04.21-13.30.43:132][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Expert.uasset
+[2018.04.21-13.34.57:685][ 15]BlueprintLog: New page: Compile P1_Sub_USA_Easy
+[2018.04.21-13.35.06:213][298]BlueprintLog: New page: Compile P1_Sub_USA_Easy
+[2018.04.21-13.35.13:653][527]BlueprintLog: New page: Compile P2_Sub_USA_Easy
+[2018.04.21-13.35.37:260][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.35.38:722][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.37.32:885][106]BlueprintLog: New page: Compile P1_Sub_USA_Medium
+[2018.04.21-13.37.40:244][315]BlueprintLog: New page: Compile P2_Sub_USA_Medium
+[2018.04.21-13.37.52:978][688]BlueprintLog: New page: Compile P2_Sub_USA_Expert
+[2018.04.21-13.40.31:325][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.050
+[2018.04.21-13.40.31:332][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.40.31:332][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Easy]
+[2018.04.21-13.40.31:726][587]LogSavePackage: Save=350.42ms
+[2018.04.21-13.40.31:726][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Easy_Auto50D5555874C1A814E3530F88B33BF0D4A.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto5.uasset'
+[2018.04.21-13.40.31:741][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Easy_Auto5.uasset
+[2018.04.21-13.40.31:745][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Easy] ([1] browsable assets)...
+[2018.04.21-13.40.31:745][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Easy]
+[2018.04.21-13.40.32:119][587]LogSavePackage: Save=321.34ms
+[2018.04.21-13.40.32:119][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Easy_Auto55BFD7AAF46BBA3E898011AB899C67A13.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto5.uasset'
+[2018.04.21-13.40.32:134][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Easy_Auto5.uasset
+[2018.04.21-13.40.32:138][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Medium] ([1] browsable assets)...
+[2018.04.21-13.40.32:138][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Medium]
+[2018.04.21-13.40.32:507][587]LogSavePackage: Save=319.51ms
+[2018.04.21-13.40.32:507][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Medium_Auto50AA5A34449E987E0682F07B737DC19CA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Medium_Auto5.uasset'
+[2018.04.21-13.40.32:523][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Medium_Auto5.uasset
+[2018.04.21-13.40.32:528][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Medium] ([1] browsable assets)...
+[2018.04.21-13.40.32:528][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Medium]
+[2018.04.21-13.40.32:909][587]LogSavePackage: Save=333.53ms
+[2018.04.21-13.40.32:909][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Medium_Auto50427E9594B848D4C01A20ABFB5D967F8.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Medium_Auto5.uasset'
+[2018.04.21-13.40.32:958][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Medium_Auto5.uasset
+[2018.04.21-13.40.32:963][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P1_Sub_USA_Expert] ([1] browsable assets)...
+[2018.04.21-13.40.32:963][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P1_Sub_USA_Expert]
+[2018.04.21-13.40.33:337][587]LogSavePackage: Save=318.93ms
+[2018.04.21-13.40.33:337][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Expert_Auto5E2E1B4B8432922855BB345844A9B03CF.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Expert_Auto5.uasset'
+[2018.04.21-13.40.33:351][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P1_Sub_USA_Expert_Auto5.uasset
+[2018.04.21-13.40.33:356][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Sub_USA_Expert] ([1] browsable assets)...
+[2018.04.21-13.40.33:356][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Sub_USA_Expert]
+[2018.04.21-13.40.33:724][587]LogSavePackage: Save=320.49ms
+[2018.04.21-13.40.33:724][587]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Expert_Auto5350562104C5777B61D07799CF98A2256.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Expert_Auto5.uasset'
+[2018.04.21-13.40.33:739][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Sub_USA_Expert_Auto5.uasset
+[2018.04.21-13.40.33:739][587]LogFileHelpers: Auto-saving content packages took 2.412
+[2018.04.21-13.46.05:841][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.46.06:078][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.46.06:197][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.46.06:310][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.46.06:423][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.46.06:543][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-13.50.32:521][ 85]BlueprintLog: New page: Compile Obstacle_Mine
+[2018.04.21-13.51.29:837][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.039
+[2018.04.21-13.51.29:842][860]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Obstacle_Mine] ([1] browsable assets)...
+[2018.04.21-13.51.29:842][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Obstacle_Mine]
+[2018.04.21-13.51.30:109][860]LogSavePackage: Save=224.46ms
+[2018.04.21-13.51.30:109][860]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Obstacle_Mine_Auto603E10D7D40BB38A124B5EAAF6DE09F48.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/Obstacle_Mine_Auto6.uasset'
+[2018.04.21-13.51.30:123][860]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/Obstacle_Mine_Auto6.uasset
+[2018.04.21-13.51.30:123][860]LogFileHelpers: Auto-saving content packages took 0.285
+[2018.04.21-13.54.41:573][717]BlueprintLog: New page: Compile Obstacle_Mine
+[2018.04.21-13.54.44:900][866]LogSavePackage: Save=233.98ms
+[2018.04.21-13.54.44:901][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Obstacle_Mine62FAE8CC4CEFEEA6C3B87080F82590CA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Mine.uasset'
+[2018.04.21-13.54.44:935][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Mine.uasset
+[2018.04.21-13.54.45:295][866]LogSavePackage: Save=314.03ms
+[2018.04.21-13.54.45:295][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_EasyD77865154BFA9666B68D288CC4B85EF4.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Easy.uasset'
+[2018.04.21-13.54.45:331][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Easy.uasset
+[2018.04.21-13.54.45:692][866]LogSavePackage: Save=315.34ms
+[2018.04.21-13.54.45:692][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Easy55C0647F439B4329524D61B841A8F782.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Easy.uasset'
+[2018.04.21-13.54.45:729][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Easy.uasset
+[2018.04.21-13.54.46:097][866]LogSavePackage: Save=317.49ms
+[2018.04.21-13.54.46:097][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Medium8B36B89444632C69C52275A2C8844595.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Medium.uasset'
+[2018.04.21-13.54.46:136][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Medium.uasset
+[2018.04.21-13.54.46:501][866]LogSavePackage: Save=315.19ms
+[2018.04.21-13.54.46:501][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_Medium839DC2824C0B4EA48F4179B147F44364.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Medium.uasset'
+[2018.04.21-13.54.46:537][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Medium.uasset
+[2018.04.21-13.54.46:919][866]LogSavePackage: Save=331.22ms
+[2018.04.21-13.54.46:919][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Sub_USA_Expert7A2BEA0A46F54F48247920B8C0B15D0B.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Expert.uasset'
+[2018.04.21-13.54.46:955][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Sub_USA_Expert.uasset
+[2018.04.21-13.54.47:372][866]LogSavePackage: Save=354.79ms
+[2018.04.21-13.54.47:373][866]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Sub_USA_ExpertD3A0CD5E43A3FA280DCEF8B311FFDC81.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Expert.uasset'
+[2018.04.21-13.54.47:406][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Sub_USA_Expert.uasset
+[2018.04.21-13.55.32:174][844]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-13.56.04:992][619]BlueprintLog: New page: Compile Obstacle_Mine
+[2018.04.21-13.59.11:132][ 53]BlueprintLog: New page: Compile Obstacle_Mine
+[2018.04.21-13.59.13:428][ 95]LogSavePackage: Save=254.31ms
+[2018.04.21-13.59.13:428][ 95]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Obstacle_Mine7A3584CA4BD0D3515F856F9BA11E07A9.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Mine.uasset'
+[2018.04.21-13.59.13:457][ 95]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Mine.uasset
+[2018.04.21-14.07.00:120][811]BlueprintLog: New page: Compile Obstacle_Depth_Charge
+[2018.04.21-14.08.42:892][150]BlueprintLog: New page: Compile Obstacle_Depth_Charge
+[2018.04.21-14.08.46:987][273]LogSavePackage: Save=257.74ms
+[2018.04.21-14.08.46:987][273]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Obstacle_Depth_ChargeF7E4EF7F496DFBC0007A02A0F2D00C52.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Depth_Charge.uasset'
+[2018.04.21-14.08.47:036][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/Obstacle_Depth_Charge.uasset
+[2018.04.21-14.13.18:616][598]BlueprintLog: New page: Compile P1_Conventional_Torpedo
+[2018.04.21-14.13.35:234][247]LogSavePackage: Save=181.93ms
+[2018.04.21-14.13.35:234][247]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Conventional_Torpedo1508389F47E2536B99F51599ADFE2D43.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Conventional_Torpedo.uasset'
+[2018.04.21-14.13.35:265][247]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Conventional_Torpedo.uasset
+[2018.04.21-14.14.53:018][825]LogSavePackage: Save=184.44ms
+[2018.04.21-14.14.53:018][825]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P1_Conventional_TorpedoCA09C52A415B2C04E16152A04CF81398.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Conventional_Torpedo.uasset'
+[2018.04.21-14.14.53:073][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P1_Conventional_Torpedo.uasset
+[2018.04.21-14.21.31:575][635]BlueprintLog: New page: Compile P2_Conventional_Torpedo
+[2018.04.21-14.21.56:215][394]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.050
+[2018.04.21-14.21.56:221][394]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/P2_Conventional_Torpedo] ([1] browsable assets)...
+[2018.04.21-14.21.56:221][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/P2_Conventional_Torpedo]
+[2018.04.21-14.21.56:464][394]LogSavePackage: Save=186.07ms
+[2018.04.21-14.21.56:464][394]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Conventional_Torpedo_Auto72701972A41842739BAA8E4B3A367FD74.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Conventional_Torpedo_Auto7.uasset'
+[2018.04.21-14.21.56:478][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/Blueprints/P2_Conventional_Torpedo_Auto7.uasset
+[2018.04.21-14.21.56:478][394]LogFileHelpers: Auto-saving content packages took 0.261
+[2018.04.21-14.22.32:915][665]LogSavePackage: Save=186.13ms
+[2018.04.21-14.22.32:915][665]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/P2_Conventional_Torpedo740772934CFC563CB84A56A4AA5A47ED.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Conventional_Torpedo.uasset'
+[2018.04.21-14.22.32:951][665]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/Blueprints/P2_Conventional_Torpedo.uasset
+[2018.04.21-14.22.35:097][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-14.22.35:662][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-14.22.36:182][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-14.53.21:705][348]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.037
+[2018.04.21-14.53.21:712][348]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Sub_Selection] ([1] browsable assets)...
+[2018.04.21-14.53.21:712][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Sub_Selection]
+[2018.04.21-14.53.22:482][348]LogSavePackage: Save=720.40ms
+[2018.04.21-14.53.22:482][348]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection_Auto813913B1C411A5F9BD71C8CB8F5FE7DF1.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto8.uasset'
+[2018.04.21-14.53.22:497][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto8.uasset
+[2018.04.21-14.53.22:497][348]LogFileHelpers: Auto-saving content packages took 0.791
+[2018.04.21-14.54.15:664][396]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-14.54.18:819][494]LogSavePackage: Save=682.08ms
+[2018.04.21-14.54.18:819][494]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionBA6BF7414526AE373B8B01B6320F7C35.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-14.54.18:853][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-14.55.00:290][153]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-14.55.32:930][469]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-14.55.36:084][551]LogSavePackage: Save=700.59ms
+[2018.04.21-14.55.36:084][551]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection5D5064754EF91ECDCB9F9EA2EADF247B.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-14.55.36:120][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-14.57.22:084][645]LogEditorTransaction: Undo Move Node
+[2018.04.21-14.57.23:888][663]LogSavePackage: Save=725.10ms
+[2018.04.21-14.57.23:888][663]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection7BE2589E4B3BD09D2AB32DADBFA5E444.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-14.57.23:944][663]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-14.57.29:382][842]LogSavePackage: Save=754.70ms
+[2018.04.21-14.57.29:382][842]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection283405A84E77B5078F649F8F71F3A460.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-14.57.29:421][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-14.57.39:574][257]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-14.57.57:123][955]LogEditorTransaction: Undo Move Nodes
+[2018.04.21-15.02.07:220][359]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.03.22:566][635]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.048
+[2018.04.21-15.03.22:574][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Sub_Selection] ([1] browsable assets)...
+[2018.04.21-15.03.22:574][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Sub_Selection]
+[2018.04.21-15.03.23:465][635]LogSavePackage: Save=836.50ms
+[2018.04.21-15.03.23:465][635]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection_Auto90D2087514B4579F399179091B5DD90C3.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto9.uasset'
+[2018.04.21-15.03.23:480][635]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto9.uasset
+[2018.04.21-15.03.23:480][635]LogFileHelpers: Auto-saving content packages took 0.912
+[2018.04.21-15.03.53:722][592]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.04.43:573][306]LogSavePackage: Save=734.97ms
+[2018.04.21-15.04.43:573][306]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection18DD64F547B8261EB841BF867F00EE96.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.04.43:610][306]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.06.35:956][820]LogSavePackage: Save=738.49ms
+[2018.04.21-15.06.35:956][820]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection844BF1CD4175F57D2B2C41A6F796491A.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.06.36:012][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.13.23:986][934]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.044
+[2018.04.21-15.13.23:993][934]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Sub_Selection] ([1] browsable assets)...
+[2018.04.21-15.13.23:993][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Sub_Selection]
+[2018.04.21-15.13.24:826][934]LogSavePackage: Save=777.10ms
+[2018.04.21-15.13.24:828][934]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection_Auto0D89A8D5D4404C66852B8199F142561F0.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto0.uasset'
+[2018.04.21-15.13.24:842][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto0.uasset
+[2018.04.21-15.13.24:842][934]LogFileHelpers: Auto-saving content packages took 0.855
+[2018.04.21-15.16.49:472][448]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.16.51:896][490]LogSavePackage: Save=756.24ms
+[2018.04.21-15.16.51:896][490]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionD18DAB9C469F7980CC6BC3B93EE3AFCA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.16.51:934][490]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.18.00:011][ 87]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.20.12:360][443]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.20.14:835][473]LogSavePackage: Save=829.92ms
+[2018.04.21-15.20.14:835][473]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionE2C6FF1B47B6B42586A173BF34DF9EFA.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.20.14:972][473]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.21.35:281][866]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-15.22.02:749][ 26]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.22.06:925][129]LogSavePackage: Save=797.11ms
+[2018.04.21-15.22.06:926][129]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionFEC99A1B41E50067FE4B8F8C9D871BE8.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.22.06:961][129]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.23.14:000][192]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.23.47:559][346]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.23.49:929][391]LogSavePackage: Save=757.26ms
+[2018.04.21-15.23.49:929][391]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionF2C1751641FD674B3D1E029517B11E60.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.23.49:967][391]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.26.30:874][762]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.26.33:480][808]LogSavePackage: Save=849.19ms
+[2018.04.21-15.26.33:480][808]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection22EE8EC54BC8C63D2B9DCD99FB4E56BD.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.26.33:515][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.33.38:016][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.040
+[2018.04.21-15.33.38:023][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Sub_Selection] ([1] browsable assets)...
+[2018.04.21-15.33.38:023][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Sub_Selection]
+[2018.04.21-15.33.38:841][895]LogSavePackage: Save=763.59ms
+[2018.04.21-15.33.38:841][895]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection_Auto1E5C0E4AA42E7E44BA18C1CA3B867AA43.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto1.uasset'
+[2018.04.21-15.33.38:859][895]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto1.uasset
+[2018.04.21-15.33.38:859][895]LogFileHelpers: Auto-saving content packages took 0.842
+[2018.04.21-15.36.20:984][754]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.36.21:308][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:315][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:316][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:316][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:316][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:316][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:318][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:318][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:318][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:318][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:318][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:319][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:320][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:320][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:322][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:322][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:322][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:322][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:323][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:323][754]LogBlueprint: Error: [Compiler Sub_Selection] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.04.21-15.36.21:398][754]LogBlueprint: Warning: [Compiler Sub_Selection] [1634.57] Compile of Sub_Selection failed. 28 Fatal Issue(s) 0 Warning(s) [in 414 ms] (/Game/HUD/Sub_Selection.Sub_Selection)
+[2018.04.21-15.36.23:729][824]LogSavePackage: Save=722.56ms
+[2018.04.21-15.36.23:729][824]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection653362B3447D1EBB30AABAAD4B8E5DDF.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.36.23:766][824]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.37.20:230][932]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.37.22:664][980]LogSavePackage: Save=790.90ms
+[2018.04.21-15.37.22:664][980]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionB78824C24DB61C0C56BD7AABC2F2D987.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.37.22:704][980]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.46.41:256][874]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-15.47.11:397][121]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.47.13:658][158]LogSavePackage: Save=820.90ms
+[2018.04.21-15.47.13:658][158]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_SelectionCD6FB7B4495ABE699F1410A876472AE5.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.47.13:692][158]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-15.54.56:437][670]BlueprintLog: New page: Compile Sub_Selection
+[2018.04.21-15.54.58:852][713]LogSavePackage: Save=823.02ms
+[2018.04.21-15.54.58:852][713]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection3D45446740C89124FB3641B580BC2567.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset'
+[2018.04.21-15.54.58:889][713]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Content/HUD/Sub_Selection.uasset
+[2018.04.21-16.10.58:991][448]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Level' took 0.038
+[2018.04.21-16.10.58:999][448]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUD/Sub_Selection] ([1] browsable assets)...
+[2018.04.21-16.10.58:999][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUD/Sub_Selection]
+[2018.04.21-16.10.59:848][448]LogSavePackage: Save=789.77ms
+[2018.04.21-16.10.59:848][448]LogSavePackage: Moving '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Sub_Selection_Auto243123F2240BFA188742E9A8ED8500127.tmp' to '../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto2.uasset'
+[2018.04.21-16.10.59:866][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Dougmund/Documents/GitHub/dm-bandai-namco-group-9/Game Files/Main Game Week 7/Saved/Autosaves/Game/HUD/Sub_Selection_Auto2.uasset
+[2018.04.21-16.10.59:866][448]LogFileHelpers: Auto-saving content packages took 0.873
